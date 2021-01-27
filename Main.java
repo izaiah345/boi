@@ -16,7 +16,11 @@ class Main {
 
   System.out.println(greeting(name));
   System.out.println("You enounterd true love in year was I right?" + age);
+  
+  System.out.println("lover 1 + 1 lover equals? " + Sum(1,1));
+
  }
+
 
   
  static int getAge(int birthMonth, int currentYear)
@@ -28,5 +32,10 @@ class Main {
  {
   String hello = "Hello "+ name;
   return hello; 
- }   
+ }
+ // new method    
+static int Sum(int num1, int num2)
+ {
+return num1 + num2;
+ }
 }
